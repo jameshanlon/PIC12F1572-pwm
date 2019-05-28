@@ -66,9 +66,9 @@ void init_pwm() {
   PWM3DC = 0;
 
   // Period.
+  PWM1PR = 32768;
   PWM2PR = 32768;
-  PWM2PR = 32768;
-  PWM2PR = 32768;
+  PWM3PR = 32768;
 }
 
 int main() {
